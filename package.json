@@ -8,13 +8,14 @@
     "start": "next start"
   },
   "dependencies": {
+    "@anthropic-ai/sdk": "^0.36.3",
     "next": "15.5.15",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0",
-    "@anthropic-ai/sdk": "^0.36.3"
+    "react-dom": "^19.0.0"
   },
   "devDependencies": {
     "@opennextjs/cloudflare": "^1.19.1",
+    "esbuild": "^0.28.0",
     "wrangler": "^4.0.0"
   }
 }
