@@ -1,4 +1,3 @@
-export const runtime = "edge";
 
 function buildPrompt({ feature, featureName, activeSections, proof, intg, logos, pairNotes }) {
   const proofNote = activeSections.includes("F")
